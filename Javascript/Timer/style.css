@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    color: #333;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container #timer {
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+.container button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.lap p {
+    width: 50%;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-color: rgb(252, 230, 196);
+
+}
+
+.container {
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: rgba(255,255,255,.5);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.logo h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.submit {
+    margin-right: 10px;
+}
+
+.submit input {
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 9px;
+    margin-right: 5px;
+}
+
+.submit button {
+    color: #28a745;
+    border-color: #28a745;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+.ss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title h1 {
+    color: tomato;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table th {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid grey;
+}
+
+table td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid grey;
+}
+
+table button {
+    padding: 8px;
+    color: grey;
+    cursor: pointer;
+    border-color: rgb(99, 98, 98);
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+footer {
+    margin-top: 35px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #707077;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 14px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer span {
+    color: rgb(255, 82, 82)
+}

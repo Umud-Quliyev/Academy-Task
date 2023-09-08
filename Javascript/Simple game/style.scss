@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+
+    .box-animation-rotation {
+        animation: rotation 2s linear;
+    }
+    .box-animation-toggle {
+        animation: toggle 2s linear;
+    }
+
+    .firstbox {
+        background-color: blue;
+        width: 120px;
+        height: 120px;
+    }
+    .secondbox {
+        background-color: green;
+        width: 120px;
+        height: 120px;
+    }
+    .thirdbox{
+        background-color: red;
+        width: 120px;
+        height: 120px;
+    }
+
+    @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+    @keyframes toggle {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 9;
+        }
+      }
+}
