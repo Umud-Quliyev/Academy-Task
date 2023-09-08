@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(to top left, rgb(116, 116, 116), rgb(192, 192, 192));
+  width: 100%;
+  height: 200px;
+}
+header .header-text {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 2px;
+}
+header h1 {
+  color: white;
+  font-size: 60px;
+  padding-top: 50px;
+}
+header p {
+  color: rgb(209, 207, 207);
+  font-size: 20px;
+  padding-top: 80px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  background: #30A6E6;
+}
+nav li {
+  width: 100%;
+}
+nav a {
+  color: white;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+section .banner {
+  text-align: center;
+  padding-top: 50px;
+}
+section img {
+  background: transparent;
+  width: 1400px;
+  padding: 8px;
+  border: 1px solid #999999;
+}
+section .container-left {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  justify-content: space-between;
+}
+section .welcome {
+  width: 1100px;
+}
+section .welcome h1 {
+  font-size: 40px;
+  padding-bottom: 25px;
+}
+section .mj {
+  padding-top: 30px;
+}
+section .mauris {
+  display: flex;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: grey 1px solid;
+  word-spacing: 3px;
+}
+section .mauris p {
+  padding-left: 15px;
+}
+section .magnis {
+  width: 400px;
+  margin-top: -200px;
+}
+section .magnis p {
+  padding-top: 20px;
+}
+section .cursus {
+  margin-right: 44px;
+}
+section .cursus h1 {
+  padding-left: 40px;
+}
+section .cursus a {
+  color: #30A6E6;
+}
+section .cursus li {
+  list-style: none;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+section .hait {
+  width: 350px;
+  margin-right: 300px;
+  margin-top: -200px;
+}
+section .hait h1 {
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+section .hait p {
+  padding-left: 40px;
+}
+section .hait a {
+  color: #30A6E6;
+}
+section .hait li {
+  list-style: none;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+section .varius {
+  width: 220px;
+  margin-right: 20px;
+}
+section .varius h1 {
+  padding-left: 40px;
+}
+section .varius a {
+  color: #30A6E6;
+}
+section .varius li {
+  list-style: none;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+footer {
+  height: 100%;
+  background: linear-gradient(to top left, rgb(116, 116, 116), rgb(192, 192, 192));
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
+footer .mhait {
+  width: 800px;
+}
+footer .mhait h1 {
+  padding-bottom: 20px;
+  color: white;
+}
+footer .mhait p {
+  color: white;
+}
+footer .sint h1 {
+  padding-left: 40px;
+  color: white;
+}
+footer .sint li {
+  list-style: none;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+footer .sint a {
+  color: white;
+}
+
+.copyright {
+  color: #999999;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}/*# sourceMappingURL=style.css.map */

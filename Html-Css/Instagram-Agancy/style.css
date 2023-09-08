@@ -1,0 +1,767 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-image: url("https://mobirise.com/extensions/socialm5/instagram-growth-agency/assets/images/photo-1557682224-5b8590cd9ec5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5rem;
+}
+header .title {
+  text-align: center;
+  padding-top: 5rem;
+}
+header .title h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ffffff;
+  letter-spacing: 5.2px;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1;
+  font-weight: 400;
+}
+header .title h1 {
+  color: white;
+  text-align: center;
+  font-size: 6.4375rem;
+  line-height: 1.1;
+  word-break: break-word;
+  word-wrap: break-word;
+  font-weight: 400;
+}
+header .title h1 span {
+  font-family: "Montagu Slab", serif;
+  font-style: italic;
+}
+header .title button {
+  margin-top: 20px;
+  border-radius: 100px;
+  padding: 1.25rem 3.5625rem;
+  letter-spacing: 5.4px;
+  border: none;
+  line-height: 20px;
+  color: #ef8600;
+}
+header .title button:hover {
+  color: #985600 !important;
+  background-color: #ffd298 !important;
+  border-color: #ffd298 !important;
+  cursor: pointer;
+}
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  background: rgba(82, 44, 103, 0.2);
+}
+header nav button {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 100px;
+  padding: 15px 30px;
+  letter-spacing: 5.4px;
+  border: none;
+  line-height: 20px;
+  color: #ef8600;
+  border-width: 1px;
+  margin: 9.6px;
+  font-size: 18px;
+}
+header nav button:hover {
+  color: #985600 !important;
+  background-color: #ffd298 !important;
+  border-color: #ffd298 !important;
+  cursor: pointer;
+}
+header .logo img {
+  height: 3rem;
+  width: auto;
+  padding: 10px 0px;
+  display: inline;
+  padding-right: 10px;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  list-style: none;
+  font-family: Outfit;
+  font-size: 18px;
+  padding: 13px 20px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  padding: 13px 0px;
+}
+header ul li a:hover {
+  color: aqua;
+}
+
+section {
+  background-image: url("https://mobirise.com/extensions/socialm5/instagram-growth-agency/assets/images/background3.jpg");
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container img {
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.container .wrapper {
+  position: relative;
+  background: #fff8ef;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 30px;
+}
+
+.item1 .box {
+  padding: 45px 50px;
+  background-color: white;
+}
+.item1 .box h2 {
+  font-family: Outfit, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.item1 .box h2 span {
+  color: aqua;
+  font-weight: 400;
+}
+.item1 .box h1 {
+  text-align: left;
+  margin: 0;
+  color: #522c67;
+  margin-bottom: 20px;
+  font-family: "Montagu Slab", serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.item1 .box p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 400;
+  display: block;
+  text-align: left;
+  width: 400px;
+}
+
+.item2 .box {
+  padding: 45px 50px;
+  background-color: white;
+}
+.item2 .box h2 {
+  font-family: Outfit, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.item2 .box h2 span {
+  color: aqua;
+  font-weight: 400;
+}
+.item2 .box h1 {
+  text-align: left;
+  margin: 0;
+  color: #522c67;
+  margin-bottom: 20px;
+  font-family: "Montagu Slab", serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.item2 .box p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 400;
+  display: block;
+  text-align: left;
+  width: 400px;
+}
+
+.item3 .box {
+  padding: 45px 50px;
+  background-color: white;
+}
+.item3 .box h2 {
+  font-family: Outfit, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.item3 .box h2 span {
+  color: aqua;
+  font-weight: 400;
+}
+.item3 .box h1 {
+  text-align: left;
+  margin: 0;
+  color: #522c67;
+  margin-bottom: 20px;
+  font-family: "Montagu Slab", serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.item3 .box p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 400;
+  display: block;
+  text-align: left;
+  width: 400px;
+}
+
+.item4 .box {
+  padding: 45px 50px;
+  background-color: white;
+}
+.item4 .box h2 {
+  font-family: Outfit, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.item4 .box h2 span {
+  color: aqua;
+  font-weight: 400;
+}
+.item4 .box h1 {
+  text-align: left;
+  margin: 0;
+  color: #522c67;
+  margin-bottom: 20px;
+  font-family: "Montagu Slab", serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.item4 .box p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 400;
+  display: block;
+  text-align: left;
+  width: 400px;
+}
+
+main .specialties {
+  background-color: #522c67;
+}
+main .about {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+main h2 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: Outfit, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 5.4px;
+  font-weight: 400;
+}
+main h1 {
+  color: white;
+  text-align: center;
+  font-family: "Montagu Slab", serif;
+  font-size: 4.6875rem;
+  line-height: 1.1;
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+main .about2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+main .about2 img {
+  background-size: auto;
+}
+main .about2 .icons {
+  display: block;
+  font-size: 110px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  height: 100%;
+  padding: 0px 49px;
+}
+main .about2 .icons p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+main .wwcd {
+  background-color: white;
+}
+main .w-about {
+  padding: 80px 0px 16px;
+}
+main .w-about h1 {
+  color: rgb(61, 98, 108);
+}
+main .w-about h2 {
+  color: rgb(1, 43, 58);
+}
+main .w-about2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+}
+main .w-about2 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .w-about2 .card1 .card-title {
+  position: absolute;
+  margin-top: -125px;
+  margin-left: 40px;
+  color: white;
+  font-family: "Montagu Slab", serif;
+  font-size: 2.6875rem;
+  line-height: 1.5;
+}
+main .w-about2 .card2 .card-title2 {
+  position: absolute;
+  margin-top: -125px;
+  margin-left: 30px;
+  color: white;
+  font-family: "Montagu Slab", serif;
+  font-size: 2.6875rem;
+  line-height: 1.5;
+}
+main .w-about2 .card3 .card-title3 {
+  position: absolute;
+  margin-top: -125px;
+  margin-left: 80px;
+  color: white;
+  font-family: "Montagu Slab", serif;
+  font-size: 2.6875rem;
+  line-height: 1.5;
+}
+main .card-info {
+  display: flex;
+  padding-left: 16px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+main .card-info .card-desc1 h3 {
+  color: #012b3a;
+  font-family: "Montagu Slab", serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+main .card-info .card-desc1 i {
+  font-size: 80px;
+  margin-bottom: 20px;
+  color: #511730;
+}
+main .card-info .card-desc1 p {
+  width: 400px;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom: 36px;
+}
+main .card-info .card-desc1 span {
+  border-bottom: gray 1px solid;
+  color: #3d626c;
+  font-size: 18px;
+  font-family: Outfit sans-serif;
+  margin-bottom: 10px;
+}
+main .card-info .card-desc2 {
+  padding-top: 60px;
+}
+main .card-info .card-desc2 h3 {
+  color: #012b3a;
+  font-family: "Montagu Slab", serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+main .card-info .card-desc2 i {
+  font-size: 80px;
+  margin-bottom: 20px;
+  color: #e5be8a;
+}
+main .card-info .card-desc2 p {
+  width: 400px;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom: 36px;
+}
+main .card-info .card-desc2 span {
+  border-bottom: gray 1px solid;
+  color: #3d626c;
+  font-size: 18px;
+  font-family: Outfit sans-serif;
+  margin-bottom: 10px;
+}
+main .card-info .card-desc3 {
+  padding-top: 60px;
+}
+main .card-info .card-desc3 h3 {
+  color: #012b3a;
+  font-family: "Montagu Slab", serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+main .card-info .card-desc3 i {
+  font-size: 80px;
+  margin-bottom: 20px;
+  color: #3d626c;
+}
+main .card-info .card-desc3 p {
+  width: 400px;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom: 36px;
+}
+main .card-info .card-desc3 span {
+  border-bottom: gray 1px solid;
+  color: #3d626c;
+  font-size: 18px;
+  font-family: Outfit sans-serif;
+  margin-bottom: 10px;
+}
+main .card-info .card-desc4 {
+  padding-top: 60px;
+}
+main .card-info .card-desc4 h3 {
+  color: #012b3a;
+  font-family: "Montagu Slab", serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+main .card-info .card-desc4 i {
+  font-size: 80px;
+  margin-bottom: 20px;
+  color: #012b3a;
+}
+main .card-info .card-desc4 p {
+  width: 400px;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom: 36px;
+}
+main .card-info .card-desc4 span {
+  border-bottom: gray 1px solid;
+  color: #3d626c;
+  font-size: 18px;
+  font-family: Outfit sans-serif;
+  margin-bottom: 10px;
+}
+main .card-info .card-desc5 {
+  padding-top: 60px;
+}
+main .card-info .card-desc5 h3 {
+  color: #012b3a;
+  font-family: "Montagu Slab", serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+main .card-info .card-desc5 i {
+  font-size: 80px;
+  margin-bottom: 20px;
+  color: #3d626c;
+}
+main .card-info .card-desc5 p {
+  width: 400px;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom: 36px;
+}
+main .card-info .card-desc5 span {
+  border-bottom: gray 1px solid;
+  color: #3d626c;
+  font-size: 18px;
+  font-family: Outfit sans-serif;
+  margin-bottom: 10px;
+}
+main .card-info .card-desc6 {
+  padding-top: 60px;
+}
+main .card-info .card-desc6 h3 {
+  color: #012b3a;
+  font-family: "Montagu Slab", serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+main .card-info .card-desc6 i {
+  font-size: 80px;
+  margin-bottom: 20px;
+  color: #8e443d;
+}
+main .card-info .card-desc6 p {
+  width: 400px;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom: 36px;
+}
+main .card-info .card-desc6 span {
+  border-bottom: gray 1px solid;
+  color: #3d626c;
+  font-size: 18px;
+  font-family: Outfit sans-serif;
+  margin-bottom: 10px;
+}
+main .works {
+  padding-top: 5rem;
+  background-color: #5f0e38;
+  text-align: center;
+}
+main .works h1 {
+  padding-bottom: 3rem;
+}
+main .works .brands {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+main .works img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-right: 16px;
+}
+main .faq {
+  padding-top: 6rem;
+  background-image: url("https://mobirise.com/extensions/socialm5/instagram-growth-agency/assets/images/photo-1557682224-5b8590cd9ec5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+main .faq .questions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .faq span {
+  font-family: "Montagu Slab", serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: white;
+  padding: 15px;
+}
+main .faq .questions-left {
+  padding-bottom: 7rem;
+}
+main .faq .questions-left .questions1 {
+  padding: 16px;
+}
+main .faq .questions-left .questions2 {
+  padding: 16px;
+}
+main .faq .questions-left .questions3 {
+  padding: 16px;
+}
+main .faq .questions-right {
+  padding-bottom: 7rem;
+}
+main .faq .questions-right .questions1-r {
+  padding: 16px;
+}
+main .faq .questions-right .questions2-r {
+  padding: 16px;
+}
+main .faq .questions-right .questions3-r {
+  padding: 16px;
+}
+main .portfolio {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  background-color: white;
+}
+main .portfolio h2 {
+  margin-bottom: 20px;
+  color: #012b3a;
+  text-align: center;
+  letter-spacing: 5.4px;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+main .portfolio h1 {
+  color: #012b3a;
+  font-family: "Montagu Slab", serif;
+  line-height: 1.1;
+  font-size: 4.6875rem;
+}
+main .portfolio-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+main .portfolio-images img {
+  padding: 16px;
+}
+main .contact {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  opacity: 0.6;
+  background-color: rgb(242, 242, 242);
+}
+main .contact h1, main .contact h2 {
+  color: #012b3a;
+}
+main .contact h1 span, main .contact h2 span {
+  color: #8e443d;
+  font-family: "Montagu Slab", serif;
+  font-size: 4.6875rem;
+  line-height: 1.1;
+  font-weight: 400;
+  border-bottom: none;
+}
+main .contact .form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .contact .form .name,
+main .contact .form .email,
+main .contact .form .phone,
+main .contact .form .company,
+main .contact .form .website,
+main .contact .form .budget,
+main .contact .form .message {
+  padding: 10px;
+}
+main .contact .form .message input {
+  height: 150px;
+  width: 65rem;
+}
+main .contact .form input {
+  height: 59px;
+  color: #012b3a;
+  font-size: 18px;
+  width: 500px;
+}
+main .contact .form input:-moz-placeholder-shown {
+  padding-left: 16px;
+}
+main .contact .form input:placeholder-shown {
+  padding-left: 16px;
+}
+main .contact .submit {
+  padding-right: 55em;
+  margin-top: 11px;
+}
+main .contact .submit button {
+  padding: 15px 30px;
+  cursor: pointer;
+  margin: 5px;
+  background-color: #000000;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  border-color: #000000;
+  font-family: "Outfit", sans-serif;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+footer {
+  padding-top: 30px;
+  background-color: #522c67;
+  padding-bottom: 30px;
+  text-align: left;
+}
+footer .footer-text {
+  padding-left: 32px;
+}
+footer a,
+footer p {
+  text-decoration: none;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  header .navbar {
+    display: none;
+  }
+  header .touch {
+    display: none;
+  }
+  header .title h2 {
+    font-size: calc(1.04375rem + 0.08125 * (100vw - 20rem) / 28);
+    line-height: calc(1.4 * (1.04375rem + 0.08125 * (100vw - 20rem) / 28));
+  }
+  header .title h1 {
+    font-size: calc(2.903125rem + 3.534375 * (100vw - 20rem) / 28);
+    line-height: calc(1.1 * (2.903125rem + 3.534375 * (100vw - 20rem) / 28));
+    font-family: "Montagu Slab", serif;
+  }
+  main h1 {
+    font-size: calc(2.290625rem + 2.396875 * (100vw - 20rem) / 28);
+    line-height: calc(1.3 * (2.290625rem + 2.396875 * (100vw - 20rem) / 28));
+  }
+  main .card-desc1, main .card-desc2, main .card-desc3, main .card-desc4, main .card-desc5, main .card-desc6 {
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  main .questions {
+    text-align: left;
+  }
+  main .questions span {
+    padding: 0;
+  }
+  main .contact h2 {
+    font-size: calc(1.04375rem + 0.08125 * (100vw - 20rem) / 28);
+    line-height: calc(1.4 * (1.04375rem + 0.08125 * (100vw - 20rem) / 28));
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,129 @@
+* {
+    background: #2A343D;
+}
+
+header {
+    text-align: center;
+
+    h1 {
+        color: white;
+        font-size: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        letter-spacing: 10px;
+    }
+
+    p {
+        color: rgb(172, 172, 172);
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        letter-spacing: 10px;
+    }
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template: 200px 200px 200px 200px 200px 200px /   170px 170px 170px 170px 170px 170px ;
+    grid-template-areas:
+        "item5 item1 item1 item1 item3 item3"
+        "item6 item1 item1 item1 item4 item4"
+        "item7 item9 item2 item2 item11 item12"
+        "item8 item10 item2 item2 item13 item14";
+
+
+    .item1 {
+        background: linear-gradient(90deg, rgba(255,51,220,1) 32%, rgba(255,210,253,1) 100%);
+        grid-area: item1;
+    }
+
+    .item2 {
+        background: linear-gradient(90deg, rgba(255, 51, 220, 1) 32%, rgba(255, 210, 253, 1) 100%);
+        grid-area: item2;
+    }
+
+    .item3 {
+        background: #33f0ff;
+        grid-area: item3;
+    }
+
+    .item4 {
+        background: #33f0ff;
+        grid-area: item4;
+    }
+
+    .item5 {
+        background: linear-gradient(90deg, rgba(255, 100, 220, 1) 32%, rgba(255, 247, 170, 1) 100%);
+        grid-area: item5;
+    }
+
+    .item6 {
+        background: linear-gradient(90deg, rgba(255, 100, 220, 1) 32%, rgba(255, 247, 170, 1) 100%);
+        grid-area: item6;
+    }
+
+    .item7 {
+        background: linear-gradient(90deg, rgba(255, 100, 220, 1) 32%, rgba(255, 247, 170, 1) 100%);
+        grid-area: item7;
+    }
+
+    .item8 {
+        background: linear-gradient(90deg, rgba(255, 100, 220, 1) 32%, rgba(255, 247, 170, 1) 100%);
+        grid-area: item8;
+    }
+
+    .item9 {
+        background: linear-gradient(90deg, rgba(255, 100, 220, 1) 32%, rgba(255, 247, 170, 1) 100%);
+        grid-area: item9;
+    }
+
+    .item10 {
+        background: linear-gradient(90deg, rgba(255, 100, 220, 1) 32%, rgba(255, 247, 170, 1) 100%);
+        grid-area: item10;
+    }
+
+    .item11 {
+        background: linear-gradient(90deg, rgba(255, 100, 220, 1) 32%, rgba(255, 247, 170, 1) 100%);
+        grid-area: item11;
+    }
+
+    .item12 {
+        background: linear-gradient(90deg, rgba(255, 100, 220, 1) 32%, rgba(255, 247, 170, 1) 100%);
+        grid-area: item12;
+    }
+
+    .item13 {
+        background: linear-gradient(90deg, rgba(255, 100, 220, 1) 32%, rgba(255, 247, 170, 1) 100%);
+        grid-area: item13;
+    }
+
+    .item14 {
+        background: linear-gradient(90deg, rgba(255, 100, 220, 1) 32%, rgba(255, 247, 170, 1) 100%);
+        grid-area: item14;
+    }
+
+    .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14 {
+        padding: 30px;
+        margin: 5px;        
+        text-align: center;        
+    }
+    
+    .item1 {
+        .fa-diamond {
+            padding-top: 140px;
+        }
+    }
+
+    .item2 {
+        .fa-diamond {
+            padding-top: 140px;
+        }
+    }
+
+    i {
+        background: transparent;     
+        font-size: 35px;
+        color: white;
+        display: inline-block;
+        padding-top: 35px;
+    }
+}
