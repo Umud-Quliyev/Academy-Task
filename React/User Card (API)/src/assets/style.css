@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pagination a {
+  color: black;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.a {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.card {
+  margin: 1rem;
+  width: 300px;
+  padding: 0.5rem 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 12px 32px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card .title {
+  color: white;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.card .title--legendary {
+  background-color: #f4d03f;
+}
+
+.card .title--epic {
+  background-color: #8c14fc;
+}
+
+.card .title--common {
+  background-color: #2ecc71;
+}
+
+.card .desc {
+  text-align: center;
+}
+
+.photo {
+  margin-bottom: 10px;
+}
+
+.card .actions {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.card .actions button {
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  outline: 0;
+  transition: background-color 0.4s, color 0.4s, transform 0.1s;
+}
+
+.card .actions button:hover {
+  color: white;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);
+}
+
+.card .actions button:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+}
+
+.card .actions__details:hover {
+  background-color: #3498db;
+}
+
+.active {
+  background-color: #00b16a;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+p {
+  margin-top: 1rem;
+  color: #484848;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #2574a9;
+}

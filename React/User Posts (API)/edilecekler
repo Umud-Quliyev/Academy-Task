@@ -1,0 +1,6 @@
+3 router olacaq main post post-detail
+input search olacaq
+1 istifadeciye daxil olandan sonra detail penceresi acilir ve button olur commentler o duymeye basdiqda commentler gelmelidir
+api/id/comments https://jsonplaceholder.typicode.com/posts/3/comments
+suspense istifade etmek
+animasiya olacaq
